@@ -1,20 +1,26 @@
+<script setup lang="ts">
+import type { DropdownMenuItem } from '@nuxt/ui'
+
+const items: DropdownMenuItem[] = [{
+  label: 'Mirai Studio',
+  to: 'https://mirai.st'
+}, {
+  label: 'Zaeth.com',
+  to: 'https://zaeth.com',
+  color: 'primary',
+  checked: true,
+  type: 'checkbox'
+}, {
+  label: 'Gallery',
+  to: 'https://next.yt'
+}]
+</script>
+
 <template>
   <UDropdownMenu
     v-slot="{ open }"
     :modal="false"
-    :items="[{
-      label: 'Zaeth',
-      to: 'https://sai.st'
-    }, {
-      label: 'Sai',
-      to: 'https://zaeth.com',
-      color: 'primary',
-      checked: true,
-      type: 'checkbox'
-    }, {
-      label: 'Next',
-      to: 'https://next.yt'
-    }]"
+    :items="items"
     :content="{ align: 'start' }"
     :ui="{ content: 'min-w-fit' }"
     size="xs"

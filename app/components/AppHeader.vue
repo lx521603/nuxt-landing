@@ -74,17 +74,19 @@ const variants: Record<string, VariantType | ((custom: unknown) => VariantType)>
     />
 
     <template #right>
+      <!--
       <UButton
         label="Sign in"
         color="neutral"
         variant="ghost"
         class="hidden lg:flex"
       />
+      -->
       <UButton
         label="Get started"
         color="neutral"
         class="hidden lg:flex"
-        to="https://ui.nuxt.com"
+        to="https://mirai.st"
         target="_blank"
       />
     </template>
@@ -151,16 +153,18 @@ const variants: Record<string, VariantType | ((custom: unknown) => VariantType)>
       />
 
       <div class="mt-4 flex flex-col gap-2">
-        <UButton
+       <!--      
+       <UButton
           label="Sign in"
           color="neutral"
           variant="soft"
           block
         />
+        -->
         <UButton
           label="Get started"
           block
-          to="https://ui.nuxt.com"
+          to="https://mirai.st"
           target="_blank"
         />
       </div>

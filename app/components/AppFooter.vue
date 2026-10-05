@@ -1,10 +1,6 @@
 <script setup lang="ts">
 const links = [
-  { label: 'Docs', to: 'https://ui.nuxt.com', target: '_blank' },
-  { label: 'GitHub', to: 'https://github.com/lx5216603/landing', target: '_blank' },
-  { label: 'Twitter', to: 'https://twitter.com/nuxt_js', target: '_blank' },
-  { label: 'Status', to: '#' },
-  { label: 'Privacy', to: '#' }
+  { label: 'Twitter', to: 'https://twitter.com/oniyt1980', target: '_blank' }
 ]
 </script>
 
