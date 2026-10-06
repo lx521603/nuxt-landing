@@ -83,10 +83,10 @@ const variants: Record<string, VariantType | ((custom: unknown) => VariantType)>
       />
       -->
       <UButton
-        label="Get started"
+        label="联系我"
         color="neutral"
         class="hidden lg:flex"
-        to="https://mirai.st"
+        to="mailto:x@zaeth.com"
         target="_blank"
       />
     </template>
@@ -162,9 +162,9 @@ const variants: Record<string, VariantType | ((custom: unknown) => VariantType)>
         />
         -->
         <UButton
-          label="Get started"
+          label="联系我"
           block
-          to="https://mirai.st"
+          to="mailto:x@zaeth.com"
           target="_blank"
         />
       </div>
