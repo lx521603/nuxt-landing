@@ -7,17 +7,16 @@ description: 收集生活中一切值得驻足的美好与趣味。
 hero:
   headline: "👋 你好，我是老李"
   links:
-    - label: 看看我的记录
+    - label: 最新动态
       color: primary
       size: xl
-      to: 'https://mirai.st/blog' # 替换为你实际的博文或记录页面路径
-    - label: 关于我
+      to: 'https://sai.st'
+    - label: 我的博客
       size: xl
       color: neutral
       variant: soft
-      to: 'https://mirai.st' # 替换为你实际的个人介绍页面路径
+      to: 'https://sai.st/blog' 
 
-# 保留酷炫的终端效果，但内容改成老李的“生活状态”
 terminal:
   lines:
     - segments:
@@ -53,7 +52,6 @@ terminal:
         - text: "✓ Ready to share."
           style: success
 
-# 把“合作品牌”改成老李的“数字行囊”或灵感来源
 logos:
   title: 老李的「数字行囊」与灵感来源
   items:
@@ -104,8 +102,8 @@ cta:
   links:
     - label: 发送邮件
       color: primary
-      to: 'mailto:x@zaeth.com' # 记得替换成你的真实邮箱
+      to: 'mailto:x@zaeth.com' 
     - label: 关注我的动态
       color: neutral
       variant: soft
-      to: 'https://mirai.st/changelog'
+      to: 'https://sai.st'
